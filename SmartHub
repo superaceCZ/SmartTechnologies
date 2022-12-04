@@ -124,7 +124,6 @@ local Label = Tab:CreateLabel("All scripts are from scriptblox.com")
 local Label = Tab:CreateLabel("Some might are patched or don't work.")
 local Label = Tab:CreateLabel("We work to add more!")
 local Tab = Window:CreateTab("Player", 6961018899) -- Title, Image
-local Label = Tab:CreateLabel("Username:"..PlayerService)
 local Label = Tab:CreateLabel("Executor: "..identifyexecutor())
 local Button = Tab:CreateButton({
 	Name = "Request full player data to console",
